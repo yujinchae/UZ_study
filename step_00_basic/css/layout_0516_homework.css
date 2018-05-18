@@ -1,0 +1,41 @@
+/* layout_0516_homework.css */
+html, body {margin: 0;}
+h1, h2, h3, h4, h5, h6 {margin :0;}
+ul,ol,li {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none; color: inherit;}
+
+/* ========== design */
+.clearfix::after, .clearfix:after {content:" "; display: block; width: 100%; height: 0; clear:both;}
+#wrap {width: 980px; height: 770px;}
+
+/* ========== header */
+#header {width: 980px; height: 110px;}
+  #top {width: 980px; height: 30px; background-color: #FBB5B5;}
+  #header>ul {width: 980px; height: 80px;}
+  #header>ul>li {height: 80px; float: left;}
+  #header>ul>li:nth-child(1){width: 270px; background-color: #D4DEBA;}
+  #header>ul>li:nth-child(2){width: 210px; background-color: #EAD9B0;}
+  #header>ul>li:nth-child(3){width: 340px; background-color: #D3DAD2;}
+  #header>ul>li:nth-child(4){width: 80px; background-color: #D2BCD9;}
+  #header>ul>li:nth-child(5){width: 80px; background-color: #E3B0DA;}
+
+/* ==========banner */
+#banner {width: 980px; height: 430px; background-color: #C7C2FD; color: #f00; 
+  text-align: center; padding: 200px; box-sizing: border-box;}
+
+/* ==========aside */
+#aside {width: 980px; height: 90px; background-color: #FDF1B5;}
+  #aside>ul{width: 980px; height: auto;}
+  #aside>ul>li{height: 15px; background-color: #F7C18D; margin-top: 36px; float: left;}
+  #aside>ul>li:nth-child(1){width: 40px; margin-left: 90px;}
+  #aside>ul>li:nth-child(2){width: 60px; margin-left: 50px;}
+  #aside>ul>li:nth-child(3){width: 130px; margin-left: 40px;}
+  #aside>ul>li:nth-child(4){width: 60px; margin-left: 40px;}
+  #aside>ul>li:nth-child(5){width: 85px; margin-left: 40px;}
+  #aside>ul>li:nth-child(6){width: 60px; margin-left: 40px;}
+  #aside>ul>li:nth-child(7){width: 45px; margin-left: 40px;}
+
+/* ========== footer */
+#footer {width: 980px; height: 140px; background-color: #B4C5FD;}
+
+/*layout_0516_homework.css*/

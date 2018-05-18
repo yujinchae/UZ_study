@@ -1,0 +1,39 @@
+/* layout_0515_homework.css*/
+
+html, body {margin: 0;}
+h1, h2, h3, h4, h5, h6 {margin :0;}
+ul,ol,li {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none; color: inherit;}
+
+/*design*/
+#wrap {width: 700px; height: 745px; background-color: #afa; margin: 0 auto; }
+.clearfix::after, .clearfix:after {content:" "; display: block; width: 100%; height: 0; clear:both;}
+
+/*header*/
+#header {width: 700px; height: 80px; background-color: #00A79D;}
+h1 {width: 100px; height: 50px; background-color: #fff; margin: 20px; margin-right: 100px; float: left; }
+#header > div{width: 100px; height: 30px; background-color: #fff; margin-left: 10px;  margin-top: 40px; float: left; }
+.navi1 {margin-left: 20px;}
+
+/*banner*/
+#banner {width: 700px; height: 250px; background-color: #ffb; text-align: center;}
+
+
+/*aside*/
+#aside {width: 700px; height: 35px; background-color: #17244D;}
+
+
+/*article*/
+/*#article {width: 700px; height: 300px; background-color: #fff;}*/
+.article_a {width: 350px; height: auto; float: left; }
+  .article_a > ul {width: 350px; height: 300px; background-color: #FF8BBD; padding: 20px; box-sizing: border-box; float: left; }
+  .article_a > ul > li {width: 140px; height: 120px; background-color: #fff; float: left; margin: 5px;}
+.article_b {width: 350px; height: 300px; background-color: #90f; float: left; }
+  /*.article_b > div {width: 258px; height: 50px; background-color: #fff; margin: px; float: left;}*/
+  .article_b_box {width: 258px; height: 200px; margin: 20px auto;}
+  .article_b_box > div {width: 258px; height: 50px; background-color: #fff;}
+  .article_b2 {margin-top: 25px; margin-bottom: 25px;}
+
+
+/*footer*/
+#footer {width: 700px; height: 80px; background-color: #FFAF17; float: left;}
