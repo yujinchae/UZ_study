@@ -20,7 +20,8 @@ a {text-decoration: none; color: inherit;}
   #header>ul>li:nth-child(5){width: 80px; background-color: #E3B0DA;}
 
 /* ==========banner */
-#banner {width: 980px; height: 430px; background-color: #C7C2FD; color: #f00; text-align: center; padding: 200px; box-sizing: border-box;}
+#banner {width: 980px; height: 430px; background-color: #C7C2FD; color: #f00; 
+  text-align: center; padding: 200px; box-sizing: border-box;}
 
 /* ==========aside */
 #aside {width: 980px; height: 90px; background-color: #FDF1B5;}
