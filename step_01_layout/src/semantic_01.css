@@ -1,0 +1,59 @@
+ /* semantic_01.css */
+
+
+/* ========== wrap ========== */
+#wrap {margin: auto; box-sizing: border-box; padding: 0.5rem; width: 60rem; height: auto; background-color: #fbd;}
+
+/* ========== headbox ========== */
+  #headBox {width: 100%; height: 50px; height: 9.375rem; background-color: #0af;}
+  h1{padding: 1.5rem;  box-sizing: border-box; width: 40%; height: 100%; height:6.25rem; background-color: #aff; text-align: center; float: left; margin-top: 1.5rem; margin-left: 1.5rem;}
+
+/* ========== gnb ========== */
+  #gnb {width: 100%; height: 50px; height: 3.125rem;  background-color: #06a;}
+  #gnb > h2 {width: 0; height: 0; position: relative; z-index: -100;}
+  /*#gnb>ul {padding: 5px; box-sizing: border-box; width: 100%; height: 48px; height: 3rem;}*/
+  #gnb>ul>li {float: left; box-sizing: border-box; margin-top: 0.20rem; margin-right: 1rem; width: 22%; height: 45px; height: 2.8125rem; background-color: #fff; text-align: center;}
+  #gnb>ul>li:nth-child(1){margin-left: 1rem;}
+
+
+/* ========== contentbox ==========*/
+  #contentBox {margin: 0.5rem 0; box-sizing: border-box; padding: 0.5em; width: 100%; height: auto; background-color: #faa; }
+  #contentBox > h2 {width: 0; height: 0; position: relative; z-index: -100;}
+    
+    /* side_view ---------- */
+    .side_view {float: left; box-sizing:border-box; width: 40%; height: auto; background-color: #fa0;}
+    .side_view > h3 {margin-bottom: 1rem; width: 100%; height: 100px; height: 6.25rem; background-color: #9a5; text-align: center; font-size: 2rem; }
+    .side_view > ul {width: 100%; height: auto; background-color: #ccc; }
+    .side_view > ul > li {margin-bottom: 0.2rem; width: 100%; height:auto; background-color:
+    #fff; text-align: center; font-size: 1.5rem; }
+    .side_view > ul > li:last-child{margin-bottom:0; }
+    .side_view > ul > li > dl {background-color: #ccc; margin-bottom: 0.3rem;}
+    .side_view > ul > li > dl >dt {background-color: #0df; margin-bottom: 0.3rem;}
+    .side_view > ul > li > dl >dd {background-color: #dfdfdf; margin-bottom: 0.3rem;}
+
+    /* content_view --------*/ 
+    .content_view {float: right; width: 59%; height: auto; background-color: #aaf; }
+    .content_view > h3 {width: 0; height: 0; position: relative; z-index: -100;}
+    .content_view > .con {margin-bottom: 6px; width: 100%; height: 140px; background-color: #fff;}
+    .content_view > .con:last-of-type {margin-bottom: 0;}
+    .content_view > .con > h4 {width: 0; height: 0; position: relative; z-index: -100;}
+      .btn_1 {margin-left:1rem; margin-top:0.5rem; width: 5%; height: 120px; background-color: #50f;float: left;}
+      .banner {width: 60%; height: 150px; float: left; text-align: center; font-size: 2rem;}
+      .btn_2 {margin-right:1rem; margin-top:0.5rem; width: 5%; height: 120px; background-color: #50f; float: right;}
+      .con > ul {width: 97%; height: 140px;}
+      .con > ul > li {float: left; margin-right: 1rem; margin-top: 0.5rem; width: 21%; height: 7rem; background-color: #66f;}
+      .con > ul >li:nth-child(1) {margin-left: 1rem;}
+      
+    .uz {width: 0; height: 0; position: relative; z-index: -100;}
+    .d > h4 {margin: 0.5rem; padding:0.5rem; box-sizing: border-box; width: 95%; height: 2rem; background-color: #fff; font-size: 1rem; text-align: center;}
+
+/* ========== footbox ========== */
+  #footBox {width: 100%;  height: 7.5rem; background-color: #aaf; padding: 2rem; box-sizing: border-box; }
+  #footBox > h2 {float: left; width: 20%; height: 4rem; background-color: #fca; text-align: center;}
+  .address {float: left; margin-left: 0.5rem; margin-top: 1rem; width: 79%; height: 3rem; background-color: #fff; }
+
+
+/*제목을 숨기는 여러 방법*/
+/*.content_view > h3 {width: 0; height: 0; overflow: hidden;}*/
+/*.content_view > h3 {width: 0; height: 0; text-indent: -9999rem; color: #fff; }
+/*.content_view > h3 {width: 0; height: 0; font-size: 0;}*/
